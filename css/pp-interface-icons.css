@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'pp-icon';
+  src:  url('../fonts/pp-interface.eot?y8vjci');
+  src:  url('../fonts/pp-interface.eot?y8vjci#iefix') format('embedded-opentype'),
+    url('../fonts/pp-interface.ttf?y8vjci') format('truetype'),
+    url('../fonts/pp-interface.woff?y8vjci') format('woff'),
+    url('../fonts/pp-interface.svg?y8vjci#pp-interface') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="pp-icon-"], [class*=" pp-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pp-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pp-icon-sort-name:before {
+  content: "\e900";
+}
+.pp-icon-sort-journal:before {
+  content: "\e901";
+}
+.pp-icon-sort-year:before {
+  content: "\e902";
+}
+.pp-icon-download:before {
+  content: "\61";
+}
+.pp-icon-errata:before {
+  content: "\62";
+}
+.pp-icon-cart:before {
+  content: "\63";
+}
+.pp-icon-doc:before {
+  content: "\64";
+}
+.pp-icon-geometry:before {
+  content: "\65";
+}
+.pp-icon-user:before {
+  content: "\66";
+}
+
